@@ -34,7 +34,6 @@ const NutritionSection = () => {
       scrollTrigger: {
         trigger: ".nutrition-section",
         start: "top center",
-        markers: true,
       },
     });
     contentTl
@@ -77,7 +76,7 @@ const NutritionSection = () => {
       <div className="flex md:flex-row flex-col justify-between md:px-10 px-5 mt-14 md:mt-0">
         <div className="relative inline-block md:translate-y-20">
           <div className="general-title relative flex flex-col justify-center items-center gap-24">
-            <div classNamej="overflow-hidden place-selft-start">
+            <div className="overflow-hidden place-selft-start">
               <h1 className="nutrition-title">It still does</h1>
             </div>
             <div className="nutrition-text-scroll place-self-star" style={{}}>
