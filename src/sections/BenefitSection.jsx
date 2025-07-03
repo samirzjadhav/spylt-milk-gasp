@@ -16,7 +16,6 @@ const BenefitSection = () => {
         start: "top 60%",
         end: "top top",
         scrub: 1.5,
-        markers: true,
       },
     });
 
